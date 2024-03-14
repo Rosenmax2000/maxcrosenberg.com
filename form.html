@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="Initials.jpg">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+  <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Form</title>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0GKH3RRGKF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0GKH3RRGKF');
+</script>
+
+</head>
+
+  
+<body>
+  <a class = "skip" href="#main_index">Skip to Main Content </a>
+  <header>
+    <div class="title">
+      <h1>Personal Portfolio</h1>
+      <h2>Max Rosenberg</h2>
+    </div>
+    <nav>
+        <a href = "index.html">About Me</a>
+        <a href = "experience.html">Experience</a>
+        <a href = "projects.html">Projects</a>
+        <a href = "media.html">Favorite Media</a> 
+        <a class="current" href = "form.html">Form</a> 
+    </nav>
+  </header>
+
+<main id="main_index">
+
+  <form action="https://formspree.io/f/xpzkagzy" method="POST">
+    <fieldset>
+      <legend>Feedback would be greatly appreciated</legend>
+  
+    <div class="container">
+      <label for="fullname"> Your Name</label>
+      <input type="text" id="fullname" placeholder="Enter Your Name" name="user_name"><br>
+      
+      <br>
+      <label for="email">Your Email</label>
+      <input name="user_email" id="email" type = "email"><br>
+  
+      <label for="message1">Is there anything you think should have been included in this website?</label>
+      <br>
+      <textarea name="message1" placeholder="Enter your message" id="message1" required></textarea><br>
+
+      <label for="message2">Do you have any questions about something on the previous 4 pages?</label>
+      <br>
+      <textarea name="message2" placeholder="Enter your message" id="message2" required></textarea><br>
+  
+      <label for="rating">How much did you enjoy the site? (between 0 and 10):</label>
+      <input type="range" id="rating" name="rating" min="0" max="10">
+      <br>
+  
+      <input type="submit" value="submit"></input>    
+    </div>
+  </fieldset>
+  </form>
+  
+
+  <hr>
+  </main>
+
+    <footer>
+      <a href="https://instagram.com/max___rosenberg?igshid=sgma1hr4mx5t"><img src="insta.jpg" alt="Instagram Logo"/></a>
+      <a href="https://www.linkedin.com/in/max-c-rosenberg/"><img src="linked.jpg" alt="LinkedIn Logo"/></a>
+      <a href= "https://github.com/MaxRosenberg"><img class="git" src="github.jpg" alt="Github Logo"/></a>
+    </footer>
+</body>
+</html>
