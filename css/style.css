@@ -268,10 +268,10 @@ li {
   }
 
 
-.project_sum{
+/*.project_sum{
     animation: text_spin;
     animation-duration: 5s;
-}
+}*/
 
 iframe{
     display: none;
